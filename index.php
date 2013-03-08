@@ -12,8 +12,9 @@ U mnie $_SERVER['PATH_INFO'] jest pusta, za to jest $_SERVER['REDIRECT_URL'] ora
     echo '$_SERVER["REQUEST_URI"]  = ' . $_SERVER["REQUEST_URI"] . PHP_EOL;
   }
   if (null !== $_SERVER["QUERY_STRING"]) {
-    echo '$_SERVER["QUERY_STRING"] = ' . $_SERVER["QUERY_STRING"] . PHP_EOL . PHP_EOL;
+    echo '$_SERVER["QUERY_STRING"] = ' . $_SERVER["QUERY_STRING"] . PHP_EOL;
   }
+  echo PHP_EOL;
 
   if (null !== $_GET["w"]) {
     echo '$_GET["w"] = ' . $_GET["w"] . PHP_EOL;
